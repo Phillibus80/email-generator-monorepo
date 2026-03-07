@@ -1,0 +1,17 @@
+{
+  "name": "nunjucks-email",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "html-to-text": "^9.0.5",
+    "juice": "^11.1.1",
+    "nunjucks": "^3.2.4"
+  }
+}

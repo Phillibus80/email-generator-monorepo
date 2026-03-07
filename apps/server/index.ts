@@ -50,3 +50,10 @@ async function jsxEmailMain() {
 }
 
 jsxEmailMain().then(() => {});
+
+// Nunjucks Email Example
+async function nunjucksEmailMain() {
+    console.log('Nunjucks Email Example');
+}
+
+nunjucksEmailMain().then(() => {});

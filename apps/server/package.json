@@ -6,7 +6,8 @@
   "dependencies": {
     "basic-bun-email": "workspace:*",
     "maizzle-email": "workspace:*",
-    "jsx-email": "workspace:*"
+    "jsx-email": "workspace:*",
+    "nunjucks-email": "workspace:*"
   },
   "devDependencies": {
     "@types/bun": "latest"
