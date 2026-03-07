@@ -1,0 +1,2 @@
+Hello {name},
+Welcome to our service!  Get started here: {link}

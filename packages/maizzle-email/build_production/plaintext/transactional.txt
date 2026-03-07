@@ -1,0 +1,28 @@
+Transactional email template
+
+‍
+
+https://maizzle.com
+
+‍
+
+Hello there!
+
+We're happy to have you on board! Please verify your email address in order to activate your account:
+
+Verify email
+
+https://maizzle.com
+
+‍
+
+Thanks,
+
+Maizzle
+
+‍
+
+If you're having trouble clicking the "Verify email" button, copy and paste the following URL into your web browser:
+https://maizzle.com/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0 https://maizzle.com/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0
+
+© 2026 Maizzle. All rights reserved.

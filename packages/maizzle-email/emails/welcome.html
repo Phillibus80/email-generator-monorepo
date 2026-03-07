@@ -1,0 +1,19 @@
+<x-main>
+  <div>Hello {{name}},</div>
+  <p>Welcome to our service! Click the button below to get started.</p>
+  <a href="{{link}}">Get Started</a>
+
+  <h2>Fetching by means of the fetch tag</h2>
+  <fetch url="https://api.chucknorris.io/jokes/random">
+    <p>
+      {{response.value}}
+    </p>
+  </fetch>
+
+  <h2>Fetching from the config</h2>
+  <ul>
+    <each loop="todo in page.todos">
+      <li>{{todo.title}}</li>
+    </each>
+  </ul>
+</x-main>
