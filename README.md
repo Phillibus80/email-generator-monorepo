@@ -6,12 +6,12 @@ You can run `bun run /apps/server/index.ts` to have an all modules generate thei
 
 In the case of Maizzle and JSX Email, there dev servers included that will give you a live preview as you make changes, and will compile your templates into html emails and their respective plain text files.  This is in addition to the above command, and will output the files inside the module itself.   To run these, navigate to the module's root folder and run 
 
-###For the Dev/Live Preview Server
+### For the Dev/Live Preview Server
 ```bash
 bun run dev
 ```
 
-###To Compile the templates into the html and plain text files
+### To Compile the templates into the html and plain text files
 ```bash
 bun run build
 ```
