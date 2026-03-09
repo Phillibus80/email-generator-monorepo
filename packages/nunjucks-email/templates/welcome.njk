@@ -1,0 +1,22 @@
+{% include "reusable-pieces/header.njk" %}
+
+{% block left %}
+<div>Hello {{name}},</div>
+{% endblock %}
+
+{% block right %}
+<p>Welcome to our service! Click the button below to get started.</p>
+<a href="{{link}}">Get Started</a>
+{% endblock %}
+
+{% block conditional %}
+<p>
+{% if night %}
+  I am Batman
+{% elif injured %}
+  I am Nightwing
+{% else %}
+  I am Bruce Wayne!
+{% endif %}
+</p>
+{% endblock %}

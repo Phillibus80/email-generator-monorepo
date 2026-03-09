@@ -1,0 +1,20 @@
+<style>
+  .header { background: #f3f4f6; padding: 20px; text-align: center; }
+  .left { padding: 20px; background: #fff; }
+  .right { padding: 20px; background: #f9fafb; }
+  .button { background: #3b82f6; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; display: inline-block; }
+</style>
+
+{% block header %}
+<div class="header">This is the header in the reusable piece</div>
+{% endblock %}
+
+<section class="left">
+  {% block left %}{% endblock %}
+</section>
+
+<section class="right">
+  {% block right %}
+  This is more content
+  {% endblock %}
+</section>

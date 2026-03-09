@@ -1,6 +1,9 @@
 import type {BunFile} from "bun";
 
-export async function generateEmail(templateName: string, data: Record<string, string>) {
+export async function generateEmail(
+    templateName: string,
+    data: Record<string, string>
+): Promise<{htmlContent: string, textContent: string}> {
     const htmlTemplatePath = `${import.meta.dir}/templates/${templateName}.html`;
     const textTemplatePath = `${import.meta.dir}/templates/${templateName}.txt`;
 

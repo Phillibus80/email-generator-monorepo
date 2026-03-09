@@ -1,7 +1,10 @@
 import {render, generatePlaintext} from '@maizzle/framework';
 import path from 'path';
 
-export async function generateMaizzleEmail(templateName: string, data: Record<string, string>) {
+export async function generateMaizzleEmail(
+  templateName: string,
+  data: Record<string, string>
+): Promise<{htmlContent: string, textContent: string}> {
   const baseDir = import.meta.dir;
   const templatePath = path.join(baseDir, 'emails', `${templateName}.html`);
 
